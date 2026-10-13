@@ -138,9 +138,12 @@ void nr9()
         int array_value = 0;
         numbers[i] = array_value;
         array_value += 1;
+        printf("i=%d\n", i);
+
     }
 
     printf("%d\n", numbers[0]);
+    printf("%d\n", numbers[91]);
     printf("numbers[0] ist nicht definiert da wir mit der befuellung erst bei numbers[1] anfangen\nDaher ist die antwort g Keine dieser Antworten ist korrekt\n");
     printf("Nr9 ENDE!!!\n");
 }
